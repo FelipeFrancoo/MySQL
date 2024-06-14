@@ -46,6 +46,8 @@
 |------------------|-----------------------------------------|-----------------------------------------------------------------------------------------------|
 | **TRUNCATE**     | Remove todos os registros de uma tabela, mas mantém a estrutura da tabela. | ```sql TRUNCATE TABLE nome_da_tabela; ```                                                    |
 
+![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) [Exemplos](https://github.com/FelipeFrancoo/MySQL/blob/main/Exemplos/DDL.sql)
+
 # Comandos DML no MySQL
 
 ![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) Este repositório contém exemplos de comandos DML no MySQL. Abaixo está a descrição de cada tipo de comando.
@@ -85,6 +87,9 @@
 | **Subconsulta em SELECT** | Consultas dentro de outras consultas (SELECT).                                               | ```sql SELECT nome, matricula FROM alunos WHERE curso_id = (SELECT id FROM cursos WHERE nome_curso = 'Matemática'); ``` |
 | **Subconsulta em FROM**   | Consultas dentro de outras consultas (FROM).                                                 | ```sql SELECT sub.nome, sub.total FROM (SELECT nome, COUNT(*) AS total FROM alunos GROUP BY nome) AS sub; ```  |
 
+![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) [Exemplos](https://github.com/FelipeFrancoo/MySQL/blob/main/Exemplos/DML.sql)
+
+
 # Comandos DCL no MySQL
 
 ![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) Este repositório contém exemplos de comandos DCL no MySQL. Abaixo está a descrição de cada tipo de comando.
@@ -95,6 +100,7 @@
 | **GRANT**       | Concede permissões específicas a usuários ou papéis.                                            | ```sql GRANT SELECT, INSERT ON banco_de_dados.tabela TO 'usuario'@'localhost'; ```           |
 | **REVOKE**      | Revoga permissões concedidas anteriormente.                                                      | ```sql REVOKE INSERT ON banco_de_dados.tabela FROM 'usuario'@'localhost'; ```               |
 
+![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) [Exemplos](https://github.com/FelipeFrancoo/MySQL/blob/main/Exemplos/DCL.sql)
 # Comandos DQL no MySQL
 
 ![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) Este repositório contém exemplos de comandos DQL no MySQL. Abaixo está a descrição de cada tipo de comando.
@@ -104,6 +110,9 @@
 |-----------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | **SELECT**      | Recupera dados de uma tabela.                                                                   | ```sql SELECT coluna1, coluna2, ... FROM nome_da_tabela WHERE condição ORDER BY coluna1; ``` |
 | **SELECT DISTINCT** | Retorna registros distintos.                                                               | ```sql SELECT DISTINCT coluna FROM nome_da_tabela; ```                                         |
+
+![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) [Exemplos](https://github.com/FelipeFrancoo/MySQL/blob/main/Exemplos/DQL.sql)
+
 
 # Comandos TCL no MySQL
 
@@ -124,6 +133,7 @@
 |-----------------|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | **SAVEPOINT**   | Define um ponto de salvamento dentro da transação.                                               | ```sql SAVEPOINT ponto_salvamento; ```                                                        |
 
+![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) [Exemplos](https://github.com/FelipeFrancoo/MySQL/blob/main/Exemplos/TCL.sql)
 
 
 
