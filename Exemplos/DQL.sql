@@ -12,6 +12,7 @@ SELECT AVG(valor) AS media_valores FROM vendas WHERE data BETWEEN '2023-01-01' A
 -- Utilizando JOIN para combinar dados de múltiplas tabelas
 SELECT clientes.nome, pedidos.numero_pedido FROM clientes INNER JOIN pedidos ON clientes.id = pedidos.cliente_id;
 
+
 ## Exemplo de SELECT DISTINCT:
   
 -- Selecionando valores distintos de uma coluna
