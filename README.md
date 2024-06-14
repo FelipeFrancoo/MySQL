@@ -1,3 +1,13 @@
+![mysql fundo](https://github.com/FelipeFrancoo/MySQL/assets/163058758/5a87ab34-93f9-4150-ae79-ca5c28837331)
+
+## Servidores Utilizados: 
+![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) https://www.apachefriends.org
+
+![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) https://sourceforge.net/projects/wampserver/
+
+## IDE Utilizada: 
+![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) https://www.mysql.com/products/workbench/
+
 # Comandos DDL no MySQL
 
 ![nuka_cola-removebg-preview (2)](https://github.com/FelipeFrancoo/POO/assets/163058758/2d8c706f-63e8-4cc8-9221-2d8507b86e05) Este repositório contém exemplos de comandos DDL no MySQL. Abaixo está a descrição de cada tipo de comandos.
